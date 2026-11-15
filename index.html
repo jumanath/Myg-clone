@@ -1,0 +1,1743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myG Digital | Best Mobile Stores in Kerala | Buy Laptop Online | India</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+  <style>
+
+/* NAVBAR SECTION */
+/* Keep navbar items on one line */
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 20px;   /* clean spacing, prevents overlap */
+}
+
+/* Group: logo + menu icon + search bar */
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Group: icons on the right side */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;   /* icon spacing */
+}
+
+/* Keep your existing code */
+.nav{
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.menu-icon { 
+  font-size: 28px; 
+  color: #007bff; 
+  cursor: pointer; 
+  margin-left: 8px; 
+  width: 50px;  
+}
+
+.search-bar { 
+  width: 60%;
+}
+
+.search-bar input { 
+  width: 100%; 
+  height: 40px; 
+  border: 1px solid #ddd; 
+  border-radius: 6px; 
+  padding: 0 12px; 
+  outline: none; 
+}
+
+.icon-btn { 
+  border: 1px solid #eee; 
+  border-radius: 8px; 
+  padding: 6px 8px; 
+  background-color: white; 
+  transition: 0.3s; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.icon-btn:hover { 
+  background-color: #f8f9fa; 
+  border-color: blue; 
+}
+
+
+.container {
+  max-width: 1200px;
+}
+
+/* NAVBAR SECTION ENDED */
+
+
+
+/* ===== First Carousel Image Style ===== */
+.first-carousal {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 18/8;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+
+
+/* ===== Hover Effect for First Carousel ===== */
+.first-carousal:hover { 
+transform: scale(1.02);
+}
+
+
+/* ===== Section Headings Margin ===== */
+.head { 
+  margin-left: 40px ;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+
+}
+
+/* ===== Second Carousel Image Style ===== */
+.second-carousal { 
+  width: max-content; 
+  height: max-content; 
+  border-radius: 10px; 
+  object-fit: fill; 
+  aspect-ratio: 1276 / 700; 
+  margin-right: 40px; 
+  aspect-ratio: 200/90;
+  
+}
+
+/* ===== Hover Effect for Second Carousel ===== */
+.second-carousal:hover { 
+transform: scale(1.02);
+ overflow: hidden;
+
+
+}
+
+
+
+.mobile-img{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.second-section-of-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:250px;
+  background-color:#fff;
+  box-shadow:0 2px 5px rgba(0,0,0,0.1); 
+  border: 1px solid lightgrey;
+  height: 500px;
+  border-style: none;
+  padding: 10px;
+}
+
+
+.icon-btn{
+  width:20%;
+  border-radius:8px;
+  display: inline-flex;
+  padding: 7px;
+
+
+}
+
+.btn{
+  width: 125px;
+}
+
+.pre-text{
+  color: #007bff;
+  background-color: skyblue; 
+  width: 17%;
+  display: inline-flex;
+}
+
+.offer-img:hover{
+     transform: scale(1.02);
+     overflow: hidden;
+}
+
+
+/* =========================================
+   TABLET RESPONSIVE CSS
+   Desktop styles remain unchanged
+========================================= */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* Navbar */
+    .navbar {
+        gap: 10px;
+    }
+
+    .navbar .container {
+        gap: 10px;
+    }
+
+    .search-bar {
+        width: auto;
+        min-width: 150px;
+    }
+
+    /* Product cards */
+    .container.d-flex:has(> .second-section-of-card) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .second-section-of-card {
+        width: calc(50% - 10px);
+        flex: 0 0 calc(50% - 10px);
+        height: auto;
+        min-height: 450px;
+    }
+
+    .second-section-of-card > img {
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    /* Deal and launch images */
+    .second-carousal {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        object-fit: cover;
+    }
+
+    /* Offer images */
+    .offer-img img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVE CSS
+========================================= */
+
+@media screen and (max-width: 767px) {
+
+    /* Navbar */
+    .navbar {
+        height: auto;
+        padding: 10px !important;
+        gap: 8px;
+    }
+
+    .navbar .container {
+        flex-wrap: wrap !important;
+        gap: 10px;
+    }
+
+    .navbar .search-bar {
+        order: 3;
+        flex: 0 0 100% !important;
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .navbar .search-bar input {
+        width: 100%;
+    }
+
+    .navbar .menu-icon {
+        font-size: 23px;
+        width: auto;
+    }
+
+    .navbar .icon-btn {
+        width: auto;
+        padding: 5px;
+    }
+
+    /* First carousel */
+    .first-carousal {
+        width: 100%;
+        aspect-ratio: 18 / 8;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    /* Section headings */
+    .head {
+        margin: 20px 10px;
+    }
+
+    /* Second carousel images */
+    .second-carousal {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        aspect-ratio: 200 / 90;
+        object-fit: cover;
+    }
+
+    /* Product card containers */
+    .container.d-flex:has(> .second-section-of-card) {
+        width: 100% !important;
+        flex-wrap: wrap !important;
+        justify-content: center;
+        gap: 10px !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Product cards */
+    .second-section-of-card {
+        width: calc(50% - 5px);
+        flex: 0 0 calc(50% - 5px);
+        height: auto;
+        min-height: 400px;
+        padding: 7px;
+        box-sizing: border-box;
+    }
+
+    .second-section-of-card > img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    /* Product discount text */
+    .pre-text {
+        width: auto;
+        font-size: 11px;
+    }
+
+    /* Product buttons */
+    .button-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .button-section .btn {
+        width: auto;
+        flex: 1 1 auto;
+    }
+
+    .button-section .icon-btn {
+        width: auto;
+        padding: 6px;
+    }
+
+    /* Offer images */
+    .offer-img img {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Footer columns */
+    .container.d-flex:has(> .container > table) {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .container.d-flex:has(> .container > table) > .container {
+        flex: 1 1 100%;
+        width: 100%;
+        margin-top: 15px !important;
+    }
+
+    /* Floating action button */
+    .fab-container {
+        right: 15px;
+        bottom: 15px;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media screen and (max-width: 400px) {
+
+    .second-section-of-card {
+        padding: 5px;
+        min-height: 360px;
+    }
+
+    .button-section {
+        gap: 3px;
+    }
+
+    .button-section .icon-btn {
+        padding: 4px;
+    }
+
+    .head {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .fab-container {
+        right: 12px;
+        bottom: 12px;
+    }
+}
+
+  </style>
+</head>
+<body>
+
+
+  <!-- Navbar -->
+<nav class="navbar bg-white shadow-sm px-3 py-2 mt-30">
+  <div class="container d-flex justify-content-between align-items-center nav flex-nowrap">
+
+    <!-- LEFT SIDE -->
+    <div class="d-flex align-items-center flex-shrink-0">
+      <span>
+        <a href="https://www.myg.in/">
+          <img src="myG-images/logo.png" style="height: 40px; width: 130px;">
+        </a>
+      </span>
+
+      <button class="btn btn-white" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+        <i class="fa-solid fa-bars menu-icon"></i>
+      </button>
+    </div>
+
+    <!-- SEARCH BAR -->
+    <form class="d-flex search-bar flex-grow-1 mx-3">
+      <input class="icon-btn" type="search" placeholder="Search products"
+        aria-label="Search" title="search products">
+    </form>
+
+    <!-- RIGHT ICONS -->
+    <div class="d-flex align-items-center gap-2 flex-shrink-0">
+      <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary" style="padding: 8px 8px 6px 6px;" title="compare"></i></button>
+      <button class="icon-btn"><i class="fa-solid fa-heart text-primary" style="padding: 8px 8px 6px 6px;"></i></button>
+      <button class="icon-btn"><i class="fa-solid fa-user text-primary" style="padding: 8px 8px 6px 6px;"></i></button>
+      <button class="icon-btn"><i class="fa-solid fa-bag-shopping text-primary" style="padding: 8px 8px 6px 6px;"></i></button>
+    </div>
+
+  </div>
+</nav>
+
+
+  <!-- first-carousal -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="https://www.myg.in/mygversary/?action=preview"><img src="myG-images/fridge-carousal.jpg" class="d-block w-100 first-carousal" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+       <a href="https://www.myg.in/refrigerators/" ><img src="myG-images/accessories_1jcv-yq.avif" class="d-block w-100 first-carousal" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://www.myg.in/small-appliances/water-purifiers/"><img src="myG-images/water-carousal.jpg" class="d-block w-100 first-carousal" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://www.myg.in/washing-machines/"><img src="myG-images/mobile-carousal.jpg" class="d-block w-100 first-carousal" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://www.myg.in/small-appliances/"><img src="myG-images/KITCHEN.avif" class="d-block w-100 first-carousal" alt="..."></a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" style="filter: invert(1); width: 40px; height: 40px;"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" style="filter: invert(1); width: 40px; height: 40px;"></span>
+    </button>
+  </div>
+
+  <!-- Deal of the Day -->
+  <div class="mt-13 head">
+    <h3 style="font-size: 22px; font-weight: 700; margin: 20px 0 10px 20px; "><b>Deal of the Day</b></h3>
+  </div>
+
+  <!-- second-carousal -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6"><img src="myG-images/mobile.avif" class="img-fluid second-carousal" alt="iPhone"></div>
+      <div class="col-md-6"><img src="myG-images/ac.avif" class="img-fluid second-carousal" alt="AC"></div>
+    </div>
+  </div>
+
+  <!-- Latest Launches -->
+  <div class="mt-13 head">
+    <h3 style="font-size: 22px; font-weight: 700; margin: 20px 0 10px 20px;"><b>Latest Launches</b></h3>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6"><img src="myG-images/mac-web_8glc-fg.avif" class="img-fluid second-carousal" alt="iPhone"></div>
+      <div class="col-md-6"><img src="myG-images/ipad_9pi1-rr.avif" class="img-fluid second-carousal" alt="AC"></div>
+    </div>
+  </div>
+
+
+
+
+
+    
+<!-- first section of the card -->
+<!-- head -->
+   <div class="mt-13 head">
+    <h3 style="font-size: 22px; font-weight: 700; margin: 20px 0 10px 20px; "><b>myG Exclusive: Just Launched</h3>
+  </div>
+
+<!-- product-1 -->
+<div class="container mt-5 d-flex w-100 gap-3 ">
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/galaxy-1.avif" >
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm ">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+  <!-- product-2 -->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/galaxy-2.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  
+
+    <!-- product-3 -->
+  <div class=" col-md-3 second-section-of-card">
+    
+    <img src="myG-images/galaxy-2.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+    <!-- product-4 -->
+
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/galaxy-2.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+</div>
+
+
+
+<!-- Deale of home applience -->
+
+  <div class="mt-13 head">
+    <h3 style="font-size: 22px; font-weight: 700; margin: 20px 0 10px 20px;"><b>Deals on home applience</b></h3>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6"><img src="myG-images/tv-web.avif" class="img-fluid second-carousal" alt="iPhone"></div>
+      <div class="col-md-6"><img src="myG-images/mobile.avif" class="img-fluid second-carousal" alt="AC"></div>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+
+<!-- offer-img -->
+<div class="container offer-img">
+  <div class="mt-30 align-items-center">
+    <a href="https://www.myg.in/mobile-phones/"><img src="myG-images/Smart-pnones.avif" style="width: 100%;border-radius: 10px;"> </a>
+    </div> 
+</div>    
+
+
+<!-- second section of card     -->
+<!-- product-1 -->
+<div class="container mt-4 d-flex w-100 gap-3 ">
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/galaxy-1.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6 >₹32,999.00 <pre class="pre-text">-13% </pre>  
+    <p style="color: gray;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm ">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn" ><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+  <!-- product-2 -->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/galaxy-2.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6 >₹32,999.00 <pre class="pre-text">-13%</pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  
+
+    <!-- product-3 -->
+  <div class=" col-md-3 second-section-of-card">
+    
+    <img src="myG-images/galaxy-2.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+    <!-- product-4 -->
+
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/galaxy-2.avif" >
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+</div>
+
+
+  <!-- product-5 -->
+<div class="container d-flex mt-4 gap-3">
+  <div class=" col-md-3   second-section-of-card">
+    <img src="myG-images/galaxy-3.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  
+
+  <!-- product-6-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/galaxy-4.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+
+  
+  <!-- product-7-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/galaxy-6.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+
+  
+  <!-- product-8-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/galaxy-4.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  </div>
+
+    <!-- product-9-->
+  <div class="container d-flex mt-4 gap-3">
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/galaxy-4.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+    <!-- product-10-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/galaxy-4.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  </div>
+
+<!-- offer img -->
+<div class="container offer-img">
+  <div class="mt-5 align-items-center  ">
+    <img src="myG-images/washing-machine-1.avif" style="width: 100%;border-radius: 10px;"> 
+  </div> 
+</div> 
+
+<!-- Third section of card     -->
+<!-- product-1 -->
+<div class="container mt-4 d-flex w-100 gap-3 ">
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/washing-1.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6 style="color: #007bff;">₹32,999.00 <pre class="pre-text">-13% </pre> 
+    <p style="color: gray;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm ">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn" ><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+  <!-- product-2 -->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/washing-2.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  
+
+    <!-- product-3 -->
+  <div class=" col-md-3 second-section-of-card">
+    
+    <img src="myG-images/washing-3.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+    <!-- product-4 -->
+
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/washing-5.avif" >
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+</div>
+
+
+  <!-- product-5 -->
+<div class="container d-flex mt-4 gap-3">
+  <div class=" col-md-3   second-section-of-card">
+    <img src="myG-images/washing-5.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  
+
+  <!-- product-6-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/washing-6.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+
+  
+  <!-- product-7-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/washing-7.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+
+  
+  <!-- product-8-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/washig-8.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  </div>
+
+    <!-- product-9-->
+  <div class="container d-flex mt-4 gap-3">
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/washing-9.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+    <!-- product-10-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/washing-6.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  </div>
+  
+
+<!-- offer-img -->
+<div class="container offer-img">
+  <div class="mt-5 align-items-center  ">
+    <img src="myG-images/kitchen-applience-offe-img.avif" style="width: 100%;border-radius: 10px;"> 
+    </div> 
+</div> 
+
+<!-- forth section of card     -->
+<!-- product-1 -->
+<div class="container mt-4 d-flex w-100 gap-3 ">
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/kitchen-1.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6 style="color: #007bff;">₹32,999.00 <pre class="pre-text">-13% </pre> 
+    <p style="color: gray;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm ">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn" ><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+  <!-- product-2 -->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/kitchen-2.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  
+
+    <!-- product-3 -->
+  <div class=" col-md-3 second-section-of-card">
+    
+    <img src="myG-images/kitchen-3.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+    <!-- product-4 -->
+
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/kitchen-4.avif" >
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+</div>
+
+
+  <!-- product-5 -->
+<div class="container d-flex mt-4 gap-3">
+  <div class=" col-md-3   second-section-of-card">
+    <img src="myG-images/kitchen-5.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  
+
+  <!-- product-6-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/kitchen-6.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+
+  <!-- product-7-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/kitchen-7.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+
+  
+  <!-- product-8-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/kitchen-8.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  </div>
+
+    <!-- product-9-->
+  <div class="container d-flex mt-4 gap-3">
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/kitchen-9.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+    <!-- product-10-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/kitchen-10.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+    <!-- product-11 -->
+
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/kitchen-1.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6 style="color: #007bff;">₹32,999.00 <pre class="pre-text">-13% </pre> 
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm ">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn" ><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+<!-- product-12 -->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/kitchen-1.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6 style="color: #007bff;">₹32,999.00 <pre class="pre-text">-13% </pre> 
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm ">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn" ><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  </div>
+
+
+  <!-- product-13 --> 
+  <div class="container d-flex mt-4 gap-3">
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/kitchen-2.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+
+    <!-- product-14 -->
+
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/kitchen-3.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+    <!-- product-15 -->
+
+   <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/kitchen-4.avif" >
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div> 
+</div>
+
+<!-- offer-img -->
+<div class="container offer-img">
+  <div class="mt-5 align-items-center  ">
+    <img src="myG-images/laptop-offer-img.avif" style="width: 100%;border-radius: 10px;"> 
+    </div> 
+</div> 
+
+<!-- fifth section of card     -->
+<!-- product-1 -->
+<div class="container mt-4 d-flex w-100 gap-3 ">
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/lap-1.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6 style="color: #007bff;">₹32,999.00 <pre class="pre-text">-13% </pre> 
+    <p style="color: gray;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm ">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn" ><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+  <!-- product-2 -->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/lap-2.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  
+
+    <!-- product-3 -->
+  <div class=" col-md-3 second-section-of-card">
+    
+    <img src="myG-images/lap-3.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+    <!-- product-4 -->
+
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/lap-4.avif" >
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+</div>
+
+<!-- offer-img -->
+<div class="container offer-img">
+  <div class="mt-5 align-items-center  ">
+    <img src="myG-images/accessories-offer img.avif" style="width: 100%;border-radius: 10px;"> 
+    </div> 
+</div> 
+
+<!-- sixth section of card     -->
+<!-- product-1 -->
+<div class="container mt-4 d-flex w-100 gap-3 ">
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/accssori-1.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6 style="color: #007bff;">₹32,999.00 <pre class="pre-text">-13% </pre> 
+    <p style="color: gray;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm ">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn" ><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+  <!-- product-2 -->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/acessorie-2.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  
+
+    <!-- product-3 -->
+  <div class=" col-md-3 second-section-of-card">
+    
+    <img src="myG-images/accessorie-3.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+    <!-- product-4 -->
+
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/accessorie-4.avif" >
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+</div>
+
+
+  <!-- product-5 -->
+<div class="container d-flex mt-4 gap-3">
+  <div class=" col-md-3   second-section-of-card">
+    <img src="myG-images/accessori-5.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  
+
+  <!-- product-6-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/accessorie-6.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+
+  <!-- product-7-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/accessorie-7.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+
+  
+  <!-- product-8-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/accessorie-8.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  </div>
+
+    <!-- product-9-->
+  <div class="container d-flex mt-4 gap-3">
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/accessorie-9.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+    <!-- product-10-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/accessorie-10.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  </div>
+
+<!-- seventh section of card     -->
+
+  <!-- offer-img -->
+<div class="container offer-img">
+  <div class="mt-5 align-items-center  ">
+    <img src="myG-images/crockery-offer.avif " style="width: 100%;border-radius: 10px;"> 
+  </div> 
+</div> 
+
+<!-- product-1 -->
+<div class="container mt-4 d-flex w-100 gap-3 ">
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/crockery-1.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6 style="color: #007bff;">₹32,999.00 <pre class="pre-text">-13% </pre> 
+    <p style="color: gray;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm ">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn" ><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+  <!-- product-2 -->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/crockery-2.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  
+
+    <!-- product-3 -->
+  <div class=" col-md-3 second-section-of-card">
+    
+    <img src="myG-images/crockery3.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section">
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+    <!-- product-4 -->
+
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/crockery-4.avif" >
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+</div>
+
+
+  <!-- product-5 -->
+<div class="container d-flex mt-4 gap-3">
+  <div class=" col-md-3   second-section-of-card">
+    <img src="myG-images/crockery-5.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  
+
+  <!-- product-6-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/crockery-9.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+
+  <!-- product-7-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/crockery-7.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+
+  
+  <!-- product-8-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/crockery-8.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  </div>
+
+    <!-- product-9-->
+  <div class="container d-flex mt-4 gap-3">
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/crockery-6.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+
+    <!-- product-10-->
+  <div class=" col-md-3 second-section-of-card">
+    <img src="myG-images/crockery-10.avif">
+    <p><span class="badge bg-success">2Fast Delivery</span></p>
+    <h6>₹32,999.00 <pre class="pre-text">-13% </pre>
+    <p style="color: grey;">MRP: <s>₹38,999.00</s></p>
+    <p>vivo Y200e 5G | 8GB | 128GB</p>
+    <p class="text-success">In stock</p></h6>
+  <div class="button-section"  >
+    <button class="btn btn-primary btn-sm">Add to cart</button> <button class="icon-btn"><i class="fa-solid fa-chart-column text-primary"></i></button>
+    <button class="icon-btn"><i class="fa-solid fa-heart text-primary"></i></button>
+  </div>
+  </div>
+  </div>
+
+  <!-- last img -->
+   <!-- <div class="container "> -->
+<div class="container offer-img">
+  <div class="mt-5 align-items-center ">
+    <img src="myG-images/last-img.avif " style="width: 50%;border-radius: 10px;"> 
+  </div> 
+</div> 
+
+
+<div class="container d-flex">
+<div class="container mt-5">
+<table style="vertical-align: top; justify-content: space-between; margin-top: 8%">
+  <th style="font-size: medium; text-align: left; ">Buyers account</th>
+
+    <tr><td><h6>Sign in</td></tr>
+    <td><h6>Orders</h6></td>
+    <tr><td><h6>Whish list</h6></td></tr>
+    <tr><td><h6>Comparison list</h6></h6></td></tr>
+
+</table>
+</div>
+
+<div class="container mt-5 ">
+<table style="vertical-align: top; justify-content: space-between; margin-top: 8%">
+
+  <th style="font-size: medium; text-align: left; ">Shop</th>
+    <tr><td><h6>Blog</td></tr>
+    <td><h6>About us</h6></td>
+    <tr><td><h6>Corporate</h6></td></tr>
+    <tr><td><h6>Store locator</h6></h6></td></tr>
+    <tr><td><h6>Career</h6></h6></td></tr>
+    <tr><td><h6>Terms and conditions</h6></h6></td></tr>
+    <tr><td><h6>News and events</h6></h6></td></tr>
+    <tr><td><h6>FAQs</h6></h6></td></tr>
+    <tr><td><h6>Privacy policy</h6></h6></td></tr>
+
+</table>
+</div>
+
+<div class="container mt-5">
+<table style="vertical-align: top; justify-content: space-between; margin-top: 8%">
+
+  <th style="font-size: medium; text-align: left; ">Contacts</th>
+    <tr><td><h6>myG online private</td></tr>
+    <td><h6>kkk Green tower , kuthiravattom</h6></td>
+    <tr><td><h6>Puthiyara Kozhikode</h6></td></tr>
+    <tr><td><h6>+91 2345678901</h6></h6></td></tr>
+    <tr><td><h6>Sales @myG.in</h6></h6></td></tr>
+
+</table>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Bootstrap & Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+<!-- Floating Action Button (FAB) -->
+<div class="fab-container">
+  <input type="checkbox" id="fab-toggle" class="fab-toggle">
+  
+  <!-- Circular Options -->
+  <div class="fab-menu">
+    <a href="https://wa.me/919876543210" class="fab-item whatsapp" title="WhatsApp" target="_blank">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+    <a href="https://instagram.com/yourprofile" class="fab-item instagram" title="Instagram" target="_blank">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="tel:+919876543210" class="fab-item call" title="Call">
+      <i class="bi bi-telephone-fill"></i>
+    </a>
+  </div>
+
+  <!-- Main Toggle Button -->
+  <label for="fab-toggle" class="fab main-fab">
+    <i class="bi bi-person-fill"></i>
+  </label>
+</div>
+
+<style>
+  .fab-container {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 1000;
+  }
+
+  .fab-toggle {
+    display: none;
+  }
+
+  /* Main FAB */
+  .main-fab {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  /* Menu container */
+  .fab-menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  /* Common style for all small icons */
+  .fab-item {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+    transition: all 0.4s ease;
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  /* WhatsApp position */
+  .whatsapp {
+    background-color: #25D366;
+    bottom: 60px;
+    right: 0;
+    transform-origin: center;
+  }
+
+  /* Instagram position */
+  .instagram {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+    bottom: 40px;
+    right: 40px;
+  }
+
+  /* Call position */
+  .call {
+    background-color: #007bff;
+    bottom: 0;
+    right: 60px;
+  }
+
+  /* When checkbox is checked → show icons */
+  .fab-toggle:checked ~ .fab-menu .fab-item {
+    transform: scale(1);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* Animate main FAB */
+  .fab-toggle:checked + .fab-menu + .main-fab {
+    transform: rotate(45deg);
+  }
+</style>
+
+</body>
+</html>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
